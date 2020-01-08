@@ -70,11 +70,14 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff;
+	
+}
+.st{
+
 	display: grid;  
     grid-template-columns: 1fr 1fr 1fr;  
     grid-template-rows: 50px 50px;
 }
-
 [tabindex="-1"]:focus {
   outline: 0 !important;
 }
